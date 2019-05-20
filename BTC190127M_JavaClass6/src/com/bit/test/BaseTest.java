@@ -8,6 +8,8 @@ public class BaseTest {
 	WebDriver dr;
 
 public WebDriver getDriver() {
+	
+	System.out.println("Hi this is Forhan");
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Md Shamibur Rahman\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		dr = new ChromeDriver();
